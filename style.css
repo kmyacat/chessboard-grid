@@ -1,0 +1,40 @@
+
+body {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    border: 3px solid black;
+    height: 560px;
+    width: 560px;
+    display: grid;
+    grid-template-columns: repeat(8, 70px);
+    grid-template-rows: 70px repeat(8, 70px) 40px;
+
+}
+
+.white {
+    background: grey;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    font-size: 50px;
+    
+
+}
+
+.cell {
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    font-size: 50px;   
+}
+
